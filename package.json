@@ -1,0 +1,31 @@
+{
+    "name": "jest-unit-test",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/yyyaku/jest-unit-test.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/yyyaku/jest-unit-test/issues"
+    },
+    "homepage": "https://github.com/yyyaku/jest-unit-test#readme",
+    "devDependencies": {
+        "jest": "^29.7.0"
+    },
+    "dependencies": {
+        "axios": "^1.6.8"
+    },
+    "jest": {
+        "transformIgnorePatterns": [
+            "node_modules/(?!axios)"
+        ]
+    }
+}
